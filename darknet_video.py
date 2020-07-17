@@ -7,7 +7,7 @@ from . import darknet
 class DarknetProcessor:
 
     def __init__(self, configPath="./core/detector/darknet/cfg/yolov4-custom-semalo-classes-complete.cfg",
-                 weightPath="./core/detector/darknet/yolo_weights/yolov4-custom-semalo-classes-complete_best.weights",
+                 weightPath="./core/detector/darknet/backup/yolov4-custom-semalo-classes-complete_best.weights",
                  metaPath="./core/detector/darknet/data/obj-semalo-classes.data"):
 
         self.netMain = None
